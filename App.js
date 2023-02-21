@@ -112,8 +112,6 @@ function App() {
     //     body: 'this push notifaction vs the app '
     //   })
     // });
-
-
   }
   return (
     <><StatusBar backgroundColor={'black'} />
