@@ -18,8 +18,6 @@ function App() {
   const [name, setname] = useState('')
   const [email, setemail] = useState('')
   const signIn = async () => {
-   
-
     try {
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn()
@@ -77,7 +75,7 @@ function App() {
     //     console.log(err)
     //     return null;
     //   })
-  }, []);
+  },[]);
   // useEffect(() => {
   //   const backgroundSubscription = Notifications.addNotificationResponseReceivedListener(response => {
   //     console.log(response);
